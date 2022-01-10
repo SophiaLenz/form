@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form / Sophia Lenz"></title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="server_form.php" method="post" autocomplete="on">
+            <label for="fname" class="required">First Name:</label>
+            <input type="text" id="fname" name="fname" maxlength="25" minlength="2" required><br>
+            <label for="lname" class="required">Last Name:</label>
+            <input type="text" id="lname" name="lname" maxlength="25" minlength="2" required><br>
+            <label for="bdate" class="required">Date:</label>
+            <input type="date" id="bdate" name="bdate" required><br>
+            <label for="Ncars">No. of cars:</label>
+            <input type="number" id="Ncars" name="Ncars" value="0" min="0"><br>
+            <label for="password" style="color: blue;">Password</label>
+            <input type="password" id="password" name="password"><br>
+            <label for="agreement" style="color: red;">Agreement</label>
+            <input type="checkbox" id="agreement" name="agreement" checked disabled><br>
+            <div class="center"><input type="submit" value="Send Info"></div>
+        </form>
+    </body>
+
+</html>
